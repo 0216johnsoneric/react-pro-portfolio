@@ -1,0 +1,180 @@
+*, 
+*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body,
+html {
+    height: 100%;
+    color: #272727;
+    line-height: 1.8;
+    background: linear-gradient(to right, #2941f7, #dd91c1);
+    background-size: cover;
+}
+
+body {
+    font-family: "Lato",
+    sans-serif;
+}.w3 {
+    letter-spacing: 5 px;
+   
+}.button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8 px 16 px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}.button:hover {
+    opacity: .5;
+    background-color: transparent;
+}
+
+
+.bigimg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+
+}
+.bigimg-1 {
+    background-image: url("https://i.kym-cdn.com/entries/icons/facebook/000/018/012/this_is_fine.jpg");
+    min-height: 100%;
+}
+.bigimg-2 {
+    background-image: url("assets/images/People-working-with-mobile-devices-and-computers-representing-omnichannel.jpg");
+    min-height: 350px; }
+
+.bigimg-3 {
+    background-image: url("assets/images/contact-image-1482350819.jpg");
+    min-height: 350px;
+}
+
+
+#myNavbar {
+    color: #EAF2E3;
+    background: transparent;
+    width: 50px;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    z-index: 100; 
+}
+
+#mobileNav {
+    z-index: 10; 
+}
+
+.card {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding-bottom: 2em;
+  --mouseX: 0;
+  --mouseY: 0;
+  --padding: 1em;
+  background: transparent;
+  position: relative;
+  display: block;
+  position: relative;
+  top: calc(var(--padding) * -1);
+  bottom: calc(var(--padding) * -1);
+  left: calc(var(--padding) * -1);
+  right: calc(var(--padding) * -1);
+  content: " ";
+  background: #272727;
+  transform: perspective(700px) rotateX(calc(var(--mouseY) * -1deg)) rotateY(calc(var(--mouseX) * 1deg));
+  border-radius: 6px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4); }
+  .card__title {
+    margin: 0 auto;
+    color: #EAF2E3;
+    text-align: center;
+    text-transform: capitalize; }
+  .card__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 1em auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; }
+  .card__text {
+    margin: 2em 5%;
+    color: rgba(234, 242, 227, 0.8); }
+  .card__btn {
+    padding: 0.7em 2em;
+    background: radial-gradient(#11d9dc, rgba(220, 17, 179, 0.3));
+    color: #EAF2E3;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1em auto 0;
+    border-radius: 2px; }
+ 
+.icon {
+  width: 24.2%;
+  padding: .6rem;}
+  /* filter: brightness(0) invert(0.6); } */
+.icon:hover {
+    filter: brightness(1) invert(0.3); }
+
+.image-responsive {
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 1000px;
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.image-responsive__picture {
+    transform: translateX(0rem) scale(1.0);
+    transition: 0.35s ease;
+    backface-visibility: hidden;
+    background-color: #000;
+}
+
+.image-responsive__picture:hover {
+  margin-left: 0 40px;
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+
+.text-box {
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+.text-box__section {
+    overflow: hidden;
+    border-bottom: 1px solid;
+}
+.text-box__section--title {
+    font-weight: 700;
+    padding: 1rem;
+    margin: 0;
+}
+
