@@ -1,0 +1,10 @@
+.bigimg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    background-image: url("https://image.shutterstock.com/image-photo/grass-flowers-during-sunset-shadow-260nw-1267603696.jpg");
+    min-height: 100%;
+}
