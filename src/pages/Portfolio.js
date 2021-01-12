@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Portfolio from "../components/Portfolio";
-import Footer from "../components/Footer";
 
     class Portfolio extends Component {
 

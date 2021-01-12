@@ -2,11 +2,9 @@ import React from 'react'
 
 const Portfolio = () => {
 
-
-
-     
     return (
        <>
+
         <div class="w3-container w3-padding-64" id="portfolio">
             <div class="section bg1"></div>
             <h2 class="w3-center"><em>PORTFOLIO</em></h2>

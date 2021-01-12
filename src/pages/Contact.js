@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import Hero from "../components/Hero";
+import Contact from "../components/Contact";
 
-    class Home extends Component {
+    class ContactView extends Component {
 
         render() {
             return(
                 <div>
                    
-                    <Hero />
+                    <Contact />
                     
                 </div>
 
@@ -15,4 +15,4 @@ import Hero from "../components/Hero";
         }
     }
 
-export default Home;
+export default ContactView;
