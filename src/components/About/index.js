@@ -18,7 +18,7 @@ const About = () => {
                     <div class="w3-col m6 w3-center w3-padding-large">
                         <div class="profile__section-left">
                          <div class="image-responsive">
-                            <img class="w3-image image-responsive__picture" src="" alt="My_Photo" width="500" height="300"/>
+                            <img class="w3-image image-responsive__picture" src="https://i.imgur.com/Hz3qbJN.png" alt="My_Photo" width="500" height="300"/>
                         </div>
                     </div>
                 </div>
