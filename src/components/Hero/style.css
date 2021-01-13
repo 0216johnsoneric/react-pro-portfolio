@@ -1,10 +1,5 @@
 .bigimg {
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    font-size: 30px; */
+   
     background-image: url("https://i.imgur.com/DZsibHk.jpg");
     position: absolute;
     top: 0;
@@ -23,7 +18,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 970px;
+    height: 1000px;
     /* position: relative; */
     z-index: 1;
 }
@@ -40,9 +35,13 @@
 
 
 .heroH1 {
-    color: lightsteelblue;
-    margin-left: 50%;
+    
+    flex-direction: column;
+    align-items: center;
+    color: #9dc2cc;
+    /* margin-left: 50%; */
     font-size: 48px;
     text-align: center;
-    margin-top: 380px;
+    padding: 250px 24px;
+    /* margin-top: 380px; */
 }
