@@ -4,7 +4,7 @@ import React from 'react'
     const Contact = () => {
         return (
         <>
-        <div class="bigimg bigimg-3 w3-display-container">
+        <div class="w3-display-container">
             <div class="w3-display-middle">
                 <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
             </div>

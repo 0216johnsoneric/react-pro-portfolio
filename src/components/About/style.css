@@ -1,0 +1,7 @@
+.heroH2 {
+    flex-direction: column;
+    align-items: center;
+    color: lightslategrey;
+    font-size: 35px;
+    text-align: center;
+}

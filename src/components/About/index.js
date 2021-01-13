@@ -1,18 +1,18 @@
 import React from 'react'
+import "./style.css";
 
 const About = () => {
 
     return (
         <>
         
-        <div class="bigimg bigimg-2 w3-display-container">
-            
-                <span class="w3-xxlarge w3-text-white w3-wide">ABOUT</span>
-            
+        <div className="heroH2 w3-display-container justify-text-center">
+            <span class="w3-xxlarge w3-wide">ABOUT</span>
         </div>
         
-        <div class="w3-content w3-container w3-padding-64" id="about">
+        
             <h2 class="w3-center"><em>ERIC JOHNSON</em></h2>
+        <div className="w3-content w3-container w3-padding-64" id="about">
             <div class="w3-row">
                 <div class="u-margin-top-medium">
                     <div class="w3-col m6 w3-center w3-padding-large">
@@ -23,6 +23,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            
 
             <div class="w3-col m6 w3-hide-small w3-center w3-padding-large">
                 <div class="profile__section-right">

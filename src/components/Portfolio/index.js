@@ -1,13 +1,14 @@
 import React from 'react'
+import "./style.css";
 
 const Portfolio = () => {
 
     return (
        <>
 
-        <div class="w3-container w3-padding-64" id="portfolio">
+        <div class="portfolio w3-container w3-padding-64" id="portfolio">
             <div class="section bg1"></div>
-            <h2 class="w3-center"><em>PORTFOLIO</em></h2>
+            <h2 class="w3-center w3-xxlarge w3-wide"><em>PORTFOLIO</em></h2>
             <p class="w3-center"><em>My latest projects!</em></p>
             <br/>
         </div>

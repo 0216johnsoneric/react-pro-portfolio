@@ -6,9 +6,9 @@ const Hero = () => {
         <>
         <div className="containerBG">
 
-        <div className="bigimg w3-display-container justify-text-center" id="home">
+         <div className="bigimg w3-display-container justify-text-center" id="home"> 
             
-                 <div className="heroH1"> 
+                 <div className="heroH1 w3-text-white"> 
 
                     <span className="w3-hide-small"> Eric Johnson</span>
                     <br/>
@@ -16,7 +16,7 @@ const Hero = () => {
                  </div> 
             
             
-        </div>
+            </div> 
         </div>
         </>
     )
