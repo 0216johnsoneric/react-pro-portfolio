@@ -11,33 +11,33 @@ import React from 'react'
             </div>
         </div>
 
-
+          <div>
         <form className="form">
           <input
-            value={this.state.email}
+            
             name="Name"
-            onChange={this.handleInputChange}
+            
             type="text"
             placeholder="Email"
           />
           <input
-            value={this.state.username}
+            
             name="Email"
-            onChange={this.handleInputChange}
+            
             type="text"
-            placeholder="Username"
+            placeholder="Email"
           />
           <input
-            value={this.state.password}
+            
             name="Message"
-            onChange={this.handleInputChange}
-            type="password"
-            placeholder="Password"
+            
+            type="textarea"
+            placeholder="Message"
           />
           <br></br>
-          <button className="btn btn-outline-light bg-dark" onClick={this.handleLogin}>Enter</button>
+          <button className="btn btn-outline-light bg-dark">Enter</button>
         </form>
-      
+          </div>
         
         </>
          

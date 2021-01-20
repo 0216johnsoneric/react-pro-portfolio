@@ -40,7 +40,7 @@ const Portfolio = () => {
             <div class="card">
                 <img class="card__img" src="https://i.imgur.com/BZu6Why.png" alt="Weather Dashboard"/>
                 <h2 class="card__title">Weather Dashboard</h2>
-                <p class="card__text">Dynamic API app that is tasked with retrieving data from OpenWeather API and uses the data to display the current and 5-Day forecast for a locally searched city.</p>
+                <p class="card__text">Dynamic API app that is tasked with retrieving data from OpenWeather API and uses the data to display the current and 5-Day forecast.</p>
                 <a class="card__btn" href="https://0216johnsoneric.github.io/Weather-Dashboard/" target="_blank" class="">Demo</a>
                 <a class="card__btn" href="https://github.com/0216johnsoneric/Weather-Dashboard" target="_blank" class=""><i class="fa fa-github fa-2x"></i></a>
             </div>
